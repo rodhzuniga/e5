@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+          /* Reto #7 - Mensajes opcionales
+      Crearás un un script para el que el usuario indicará un número entre 1 y 6. Como respuesta se le brindará un mensaje según el número leido:
+      En caso indicar un número distinto, pedir al usuario que ingrese uno en el rango válido.
+       */
+          let numero=parseInt(prompt('indique una opción del 1 al 6'));
+          switch (numero) {
+              case 1:
+                  document.write('Hoy aprenderemos sobre prorgamación');
+                  break;
+              case 2:
+                  document.write('¿Qué tal tomar un curso de marketing digital?');
+                  break;
+              case 3:
+                  document.write('Hoy es un gran día para comenzar a aprender de diseño');
+                  break;
+              case 4:
+                  document.write('¿Y si aprendemos algo de negocios online?');
+                  break;
+              case 5:
+                  document.write('Veamos un par de clases sobre producción audiovisual');
+                  break;
+              case 6:
+                  document.write('Tal vez sea bueno desarrollar una habilidad blanda en Platzi');
+                  break;
+            default:
+                  document.write('valor desconocido');
+            }
+    </script>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
